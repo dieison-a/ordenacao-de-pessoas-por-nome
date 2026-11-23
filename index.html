@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pessoas por Nome</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <main class="cartao">
+        <h1>Cadastro de pessoas</h1>
+
+        <form action="ordenaPessoas.php" method="post">
+            <p>Idades das pessoas:</p>
+            <label for="nome1">Nome da pessoa 1:</label>
+            <input type="text" name="nome1" id="nome1" required />
+            <label for="idade1">Idade da pessoa 1:</label>
+            <input type="number" name="idade1" id="idade1" min="0" required />
+            <label for="nome2">Nome da pessoa 2:</label>
+            <input type="text" name="nome2" id="nome2" required />
+            <label for="idade2">Idade da pessoa 2:</label>
+            <input type="number" name="idade2" id="idade2" min="0" required />
+            <label for="nome3">Nome da pessoa 3:</label>
+            <input type="text" name="nome3" id="nome3" required />
+            <label for="idade3">Idade da pessoa 3:</label>
+            <input type="number" name="idade3" id="idade3" min="0" required />
+
+            <button type="submit">Cadastrar</button>
+            <button type="reset">Limpar</button>
+        </form>
+    </main>
+</body>
+
+</html>
